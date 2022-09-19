@@ -64,7 +64,11 @@ li {
 
 
 footer {
-    align-items: center;
+    display: flex;
     font-size: larger;
     text-decoration-line: none;
+}
+
+span.lastupdated {
+    color: fuchsia;
 }
