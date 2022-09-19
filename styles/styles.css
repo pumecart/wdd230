@@ -64,6 +64,7 @@ li {
 
 
 footer {
+    align-items: center;
     font-size: larger;
     text-decoration-line: none;
 }
