@@ -47,12 +47,12 @@ h1{
 
 h2 {
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 ul {
-    border-top: solid rgb(169, 153, 153);
-    border-bottom: solid rgb(169, 153, 153);
+    border-top: solid purple;
+    border-bottom: solid purple;
     margin: 10px;
     padding: 10px;
 }
@@ -60,6 +60,10 @@ ul {
 li {
     margin: .5px;
     padding: .5px;
+}
+
+span.title {
+    color: rgb(245, 7, 245);
 }
 
 footer {
