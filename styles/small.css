@@ -1,3 +1,4 @@
+
 * {
     margin: 0rem;
     font-family: 'Amiri', serif;
@@ -6,7 +7,7 @@
 body {
  background-color:  rgb(246, 105, 246);
  font-family: "Prata",'Times New Roman', Times, serif;
- font-size: medium;
+ font-size: 16px;
  margin: 1rem;
  border: 1px;
  padding: 2rem;
@@ -24,7 +25,6 @@ header, footer {
     background-color: lightgray;
     color: purple;
     padding: 1.5rem;
-    border-radius: 15px;
     box-shadow: rgb(255, 255, 255) 7px 7px 8px;
 }
 
@@ -34,9 +34,6 @@ header {
 
 img {
     box-shadow: rgb(255, 255, 255) 7px 7px 8px;
-    border-radius: 5px;
-    align-self: left;
-
 }
  
 
@@ -44,11 +41,13 @@ h1{
     margin-left: 2rem;
     justify-content: center;
     text-shadow: darkgrey 5px 5px 5px;
+    font-size: 2rem;
 }
 
 h2 {
     justify-content: center;
     text-align: center;
+    font-size: 2rem;
 }
 
 ul {
