@@ -8,15 +8,30 @@ header, footer{
 	text-align: center;
 	background-color: rgb(0, 0, 0);
 	color: rgb(255, 255, 255);
-	padding: .25rem;
+	padding: .5rem;
+	width: 100%;
 }
 
 main {
-	max-width: 767px;
+	/* max-width: 767px; */
+	width: 100%;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+}
+
+h3{
+	background-color: rgb(71, 70, 70);
+	color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 1rem;
+}
+
+img{
+	width: 100%;
+
 }
 
 /* main section h2 {
@@ -36,42 +51,10 @@ main section:nth-child(2) {
 	margin: 0.5rem;
 }
 
-.colimage {
-	box-shadow: 0 0 30px #333;
-}
+
 
 /* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
 
-	main section:nth-child(2) {
-		display: block;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main section picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
-}
 
 /* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-		align-content: center;
-	}
 
-	main section:nth-child(3) {
-		grid-column: span 1;
-	}
-}
