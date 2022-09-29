@@ -23,7 +23,7 @@ header{
 }
 
 h1{
-    font-size: .75rem;
+    font-size: 1.25rem;
 }
 
 nav ul {
@@ -38,12 +38,16 @@ nav ul li a{
 	padding: 0.75rem;
 	text-decoration: none;
     list-style: none;
-	font-size: 0.95rem;
+	font-size: 1.25rem;
     
 }
 
 nav a:hover{
     font-weight: bold;
     width: 100%;
+}
+
+.active{
+    text-decoration-line: underline;
 }
 
