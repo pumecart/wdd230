@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    text-align: center;
+}
+
+.homenav{
+    background-color: rgb(159, 233, 159);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+h1{
+    font-size: .75rem;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav ul li a{
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    list-style: none;
+	font-size: 0.95rem;
+    
+}
+
+nav a:hover{
+    font-weight: bold;
+    width: 100%;
+}
+
