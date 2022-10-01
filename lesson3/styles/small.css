@@ -9,13 +9,24 @@ body{
     font-size: 16px;
 }
 
+h1, h2, footer{
+    font-family: 'Playfair Display SC', serif;
+}
+
 header{
     text-align: center;
     align-content: center;
 }
 
 .logo{
-    height: 350px;
+    height: 400px;
+    margin: none;
+    padding: none;
+    justify-content: flex-start;
+}
+
+.logosection{
+    background-color: beige;
 }
 
 
@@ -45,7 +56,7 @@ nav ul li a{
 	text-decoration: none;
     list-style: none;
 	font-size: 1.25rem;
-    
+    font-family: 'Libre Baskerville', serif;
 }
 
 nav a:hover{
@@ -57,3 +68,68 @@ nav a:hover{
     text-decoration-line: underline;
 }
 
+.sitepurpose{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.availdomain{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+li .availdom{
+    list-style-type: none;
+}
+
+.logodesc{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.ta{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.twop{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.scen{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.cs{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+footer{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(159, 233, 159);
+    
+}
+
+.footertext{
+    font-size: larger;
+    text-align: left;
+    justify-content: center;
+    padding: .5rem;
+    margin: 1rem;
+
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: flex-end; 
+    flex: 1 1 auto;
+}
+
+.socialmedia a{
+    margin: 1rem;
+}
