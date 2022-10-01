@@ -87,6 +87,16 @@ li .availdom{
     padding: .5rem;
 }
 
+.cs{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.li-cs{
+    list-style-type: square;
+}
+
 .ta{
     margin: .5rem;
     padding: .5rem;
@@ -107,12 +117,18 @@ li .availdom{
     padding: .5rem;
 }
 
+.typog{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
 footer{
     display: flex;
     margin: auto;
     width: 100%;
     background-color: rgb(159, 233, 159);
-    
 }
 
 .footertext{
@@ -121,7 +137,21 @@ footer{
     justify-content: center;
     padding: .5rem;
     margin: 1rem;
+}
 
+.playfair{
+    font-family: 'Playfair Display SC', serif;
+    list-style-type: none;
+}
+
+.assistant{
+    font-family: 'Assistant', sans-serif;
+    list-style-type: none;
+}
+
+.libre{
+    font-family: 'Libre Baskerville', serif;
+    list-style-type: none;
 }
 
 .socialmedia{
