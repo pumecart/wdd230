@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, .date, footer{
+    font-family: 'Playfair Display SC', serif;
+}
+
+header {
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1050px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+}
+
+/* .logosection{
+    background-color: beige;
+} */
+
+
+/* .homenav{
+    background-color: rgb(159, 233, 159);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+h1{
+    font-size: 1.25rem;
+} */
+
+.socialmedia {
+    margin-right: 1.5rem;
+}
+
+.socialmedia a {
+    width: 5px;
+    height: auto;
+}
+
+.date{
+    align-items: center;
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+    letter-spacing: 1pt;
+	color: forestgreen;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav ul li a{
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    list-style: none;
+	font-size: 1.25rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav a:hover{
+    font-weight: bold;
+    width: 100%;
+}
+
+.active{
+    text-decoration-line: underline;
+}
+
+.sitepurpose{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.availdomain{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+li .availdom{
+    list-style-type: none;
+}
+
+.logodesc{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.cs{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.li-cs{
+    list-style-type: square;
+}
+
+.ta{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.twop{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.scen{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.cs{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.typog{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(159, 233, 159);
+}
+
+.footertext{
+    font-size: larger;
+    text-align: left;
+    justify-content: center;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+.playfair{
+    font-family: 'Playfair Display SC', serif;
+    list-style-type: none;
+}
+
+.assistant{
+    font-family: 'Assistant', sans-serif;
+    list-style-type: none;
+}
+
+.libre{
+    font-family: 'Libre Baskerville', serif;
+    list-style-type: none;
+}
+
