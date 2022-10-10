@@ -1,7 +1,7 @@
 @media only screen and (min-width: 37.5em) {
     
     	/* Flex *********************/
-  	/* nav ul { 
+  	nav ul {
         display: flex;
     }
 
@@ -11,7 +11,7 @@
 
     nav ul li a{
         font-size: 1.5rem;
-    } */
+    }
 
 
 	.headings h1 {

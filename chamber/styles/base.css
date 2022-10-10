@@ -64,16 +64,16 @@ h1{
 
 .socialmedia {
     margin-right: 1.5rem;
-}
+} 
 
 .socialmedia a {
     width: 5px;
     height: auto;
-    align-items: flex-end;
 }
 
 .date{
-    align-items: baseline;
+    align-self: flex-end;
+    justify-items: center;
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem;
@@ -91,8 +91,13 @@ h1{
 }
 
 nav ul {
-	list-style-type: none;
-	overflow: hidden;
+	/* list-style-type: none;
+	overflow: hidden; */
+    display: none;
+}
+
+nav ul.open{
+    display: block;
 }
 
 nav ul li a{
@@ -114,6 +119,13 @@ nav a:hover{
 .active{
     text-decoration-line: underline;
 }
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(1) {display: block;}
+
 
 .sitepurpose{
     margin: .5rem;

@@ -8,6 +8,16 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+// navigation- hamburger
+function toggleMenu () {
+    document.getElementById("navigation").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+
+const x = document.getElementById('hamburgerBtn');
+
+x.onclick = toggleMenu;
+
 // footer- year
 const currentyear = new Date().getFullYear();
 document.getElementById('year').textContent = currentyear;
