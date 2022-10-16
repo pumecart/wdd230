@@ -34,32 +34,16 @@ h1, .date, footer{
 	height: auto;
 }
 
-/* .headings {
-	display: flex;
-	flex-direction: column;
-	margin-left: .5rem;
-} */
-
 .headings h1 {
 	font-size: 1rem;
 } 
 
-.homenav{
-    background-color: rgb(159, 233, 159);
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: .5rem;
-}
 
-h1{
-    font-size: 1.25rem;
-} 
 
 .socialmedia {
     margin-right: 1.5rem;
-    justify-content: right;
+    justify-content: center;
+    /* justify-content: right; */
     align-items: center;
 } 
 
@@ -67,6 +51,20 @@ h1{
     width: 5px;
     height: auto;
 }
+
+.homenav{
+    background-color: rgb(159, 233, 159);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: right;
+    padding: .5rem;
+}
+
+h1{
+    font-size: 1.25rem;
+} 
 
 .date{
     display: block;
@@ -83,15 +81,7 @@ h1{
 	font-size: 0.8rem;
 }
 
-.footerlogo{
-    align-items: center;
-    margin-left: 1.5rem;
-    padding: .5rem;
-}
-
 nav ul {
-	/* list-style-type: none;
-	overflow: hidden; */
     display: none;
 }
 
@@ -115,15 +105,10 @@ nav ul li{
 
 nav a:hover{
     background-color: rgba(0,0,0,0.2);
-    width: 100%;
 }
 
 .active{
     text-decoration-line: underline;
-}
-
-#hamburgerBtn{
-    border: none;
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -132,6 +117,22 @@ nav a:hover{
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(1) {display: block;}
 
+/*herodiv */
+.heromain{
+    position: relative;
+}
+
+.heropic{
+    object-fit: fill;
+}
+
+.herotext{
+    position: absolute;
+    margin: 0 auto;
+    top: 10px;
+    left: 25px;
+    color: white;
+}
 
 /* .sitepurpose{
     margin: .5rem;
@@ -189,19 +190,60 @@ li .availdom{
     font-size: 3rem;
 } */
 
-footer{
+/* footer{
     display: flex;
     margin: auto;
     width: 100%;
     background-color: rgb(159, 233, 159);
-}
+} */
 
-.footertext{
+/* .footertext{
     font-size: larger;
     text-align: center;
     justify-content: center;
     padding: .5rem;
     margin: 1rem;
+} */
+
+.footer{
+    display: grid;
+    grid-template-rows: 32% 8% 8% 8% 8% 8% 7% 7% 7% 7%;
+    background-color: rgb(159, 233, 159);
+    justify-content: center;
+    align-items: center;
+    padding: .25rem;
+}
+
+.footerlogo{
+    grid-row: 1/2;
+}
+
+.fname{
+    grid-row: 2/3;
+} 
+
+.fadd{
+    grid-row: 3/4;
+} 
+
+.fcontactemail{
+    grid-row: 4/5;
+} 
+
+.fphnumber{
+    grid-row: 5/6;
+} 
+
+.fmap{
+    grid-row: 6/7;
+    padding: .25rem;
+    border-bottom: rgba(0,0,0,0.2);
+}
+
+.footertext{
+    grid-row: 7/11;
+    display: flex;
+    flex-direction: column;
 }
 
 .playfair{

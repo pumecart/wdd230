@@ -18,6 +18,18 @@ const x = document.getElementById('hamburgerBtn');
 
 x.onclick = toggleMenu;
 
+//banner
+const banner = document.getElementById("banner");
+
+let date = newDate();
+currentDate = date.getDay();
+
+if(currentDate == 1 || currentDate == 2){
+    document.querySelector('#meeting').textContent =` "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."` ;
+} else{
+    document.querySelector('#meeting').style.display="none";
+}
+
 // footer- year
 const currentyear = new Date().getFullYear();
 document.getElementById('year').textContent = currentyear;

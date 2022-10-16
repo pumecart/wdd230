@@ -38,7 +38,7 @@
     }
 
     .heromain, .event, .weather, .join, .nr, .spot, .sl1, .sl2, .sl3{
-        border: solid rgb(0, 0, 0);
+        border: solid rgba(0, 0, 0, 0.3);
         padding: .5rem;
     }
 
@@ -77,22 +77,12 @@
     }
 
     .light{
-        display: grid;
-        row-gap: 10px;
-        grid-column: 3/4;
-        grid-template-rows: subgrid;
-    }
-
-    .sl1{
-        grid-row: 1/2;
-    }
-
-    .sl2{
-        grid-row: 2/3;
+        display: block;
+        grid-row: 1/4;
+        grid-column:4;
     }
 
     .sl3{
-        grid-row: 3/4;
+        display: grid;
     }
-
 }
