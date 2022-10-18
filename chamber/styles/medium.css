@@ -11,15 +11,15 @@
         clear: both;
     } 
 
-    nav ul li a{
+    /* nav ul li a{
         font-size: 1.5rem;
-    }
+    } */
 
-
+/* 
 	.headings h1 {
 		font-size: 2rem;
 		margin: 0;
-	}
+	} */
 
     #hamburgerBtn {
         display: none;

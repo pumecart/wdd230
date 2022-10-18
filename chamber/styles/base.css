@@ -123,88 +123,45 @@ nav a:hover{
 }
 
 .heropic{
-    object-fit: fill;
+    width: 100%
+}
+
+.banner{
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    border: 10px blue;
+    background-color: white;
+    font: blue;
+    font-style: italic;
 }
 
 .herotext{
     position: absolute;
     margin: 0 auto;
-    top: 10px;
-    left: 25px;
+    top: 0;
+    left: 10px;
     color: white;
 }
 
-/* .sitepurpose{
-    margin: .5rem;
+.event, .weather, .join, .nr, .spot, .sl1, .sl2, .sl3{
+    border: solid rgba(0, 0, 0, 0.3);
     padding: .5rem;
-}
-
-.availdomain{
-    margin: .5rem;
-    padding: .5rem;
-}
-
-li .availdom{
-    list-style-type: none;
-}
-
-.logodesc{
-    margin: .5rem;
-    padding: .5rem;
-}
-
-.cs{
-    margin: 1rem;
-    padding: 1rem;
+    margin: .25rem;
     text-align: center;
 }
 
-.li-cs{
-    list-style-type: square;
+.heromain{
+    border: none;
+    margin: .25rem;
 }
 
-.ta{
-    margin: .5rem;
-    padding: .5rem;
+.sl3{
+    display: none;
 }
 
-.twop{
-    margin: .5rem;
-    padding: .5rem;
-}
-
-.scen{
-    margin: .5rem;
-    padding: .5rem;
-}
-
-.cs{
-    margin: .5rem;
-    padding: .5rem;
-}
-
-.typog{
-    margin: 1rem;
-    padding: 1rem;
-    text-align: center;
-    font-size: 3rem;
-} */
-
-/* footer{
-    display: flex;
-    margin: auto;
-    width: 100%;
-    background-color: rgb(159, 233, 159);
-} */
-
-/* .footertext{
-    font-size: larger;
-    text-align: center;
-    justify-content: center;
-    padding: .5rem;
-    margin: 1rem;
-} */
-
+/* footer */
 .footer{
     display: grid;
     grid-template-rows: 32% 8% 8% 8% 8% 8% 7% 7% 7% 7%;
@@ -212,10 +169,14 @@ li .availdom{
     justify-content: center;
     align-items: center;
     padding: .25rem;
+    margin: 1rem;
+    text-align: center;
 }
 
 .footerlogo{
     grid-row: 1/2;
+    margin: .5px;
+    padding: .25px;
 }
 
 .fname{

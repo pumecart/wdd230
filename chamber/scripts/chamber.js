@@ -18,7 +18,7 @@ const x = document.getElementById('hamburgerBtn');
 
 x.onclick = toggleMenu;
 
-//banner
+banner
 const banner = document.getElementById("banner");
 
 let date = newDate();
