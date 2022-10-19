@@ -21,7 +21,7 @@ x.onclick = toggleMenu;
 // banner
 const banner = document.getElementById("banner");
 
-let date = newDate();
+let date = new Date();
 currentDate = date.getDay();
 
 if(currentDate == 1 || currentDate == 2){
@@ -32,7 +32,8 @@ if(currentDate == 1 || currentDate == 2){
 
 // footer- year
 const currentyear = new Date().getFullYear();
-document.getElementById('year').textContent = currentyear;
+// document.getElementById('year').textContent = currentyear;
+document.querySelector("#year").innerHTML = `©️${currentyear}`;
 
 // footer last updated
 const options = {month: 'numeric', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'};

@@ -117,6 +117,21 @@ nav a:hover{
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(1) {display: block;}
 
+
+.banner{
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    /* position: absolute;
+    bottom: 25px;
+    right: 25px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 0, 0.705);
+    font-style: italic;
+    padding: .5rem;
+}
+
 /*herodiv */
 .heromain{
     position: relative;
@@ -124,17 +139,6 @@ nav a:hover{
 
 .heropic{
     width: 100%
-}
-
-.banner{
-    font-family: 'Libre Baskerville', serif;
-    position: absolute;
-    bottom: 25px;
-    right: 25px;
-    border: 10px blue;
-    background-color: white;
-    font: blue;
-    font-style: italic;
 }
 
 .herotext{
@@ -145,7 +149,7 @@ nav a:hover{
     color: white;
 }
 
-.event, .weather, .join, .nr, .spot, .sl1, .sl2, .sl3{
+.event, .weather, .join, .nr, .spot, .sl1, .sl2{
     border: solid rgba(0, 0, 0, 0.3);
     padding: .5rem;
     margin: .25rem;
@@ -176,15 +180,17 @@ nav a:hover{
 .footerlogo{
     grid-row: 1/2;
     margin: .5px;
-    padding: .25px;
+    padding: .5px;
 }
 
 .fname{
     grid-row: 2/3;
+    padding: .25rem;
 } 
 
 .fadd{
     grid-row: 3/4;
+    padding: .25rem;
 } 
 
 .fcontactemail{
@@ -202,6 +208,8 @@ nav a:hover{
 }
 
 .footertext{
+    border-top: solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
     grid-row: 7/11;
     display: flex;
     flex-direction: column;
