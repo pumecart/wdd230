@@ -16,13 +16,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="clearfix">
         <section class="head">
-        <div class="logo">
-        <picture>
-        <img src="images/WP.png" alt="tree-logo">
+        <!-- <div class="logo"> -->
+        <picture class="logo">
+            <source media="(max-width: 300px)" srcset="images/logo300.webp">
+            <source media="(max-width: 400px)" srcset="images/logo400.webp">
+            <source media="(max-width: 500px)" srcset="images/logo500.webp">
+        <img src="images/WP.png" alt="logo">
         </picture>
-        </div>
+        <!-- </div> -->
         <div class="headings">
         <h1>Wickham Park Area<br>
              Chamber of Commerce</h1>
@@ -38,10 +41,10 @@
         </nav>
         <div class="socialmedia">
             <a href="https://facebook.com">
-                <img src="images/5279111_network_fb_social media_facebook_facebook logo_icon.png" alt= "facebook" width="25px">
+                <img src="images/5279111_network_fb_social media_facebook_facebook logo_icon.png" alt= "facebook">
             </a>
             <a href="https://instagram.com">
-                <img src="images/5279112_camera_instagram_social media_instagram logo_icon.png" alt="instagram" width="25px">
+                <img src="images/5279112_camera_instagram_social media_instagram logo_icon.png" alt="instagram">
             </a>    
         </div>
         </section>
@@ -49,10 +52,16 @@
         <div class="banner"><span id="meeting"></span></div>
     </header>
     <main class="main-main">
-        <section class="heromain">
+        <figure class="heromain">
+            <img src="images/wdd230-org.jpg" alt="wk6heromain" sizes="50vw"
+            srcset="images/wk6hero700.webp 700w, images/wk6hero800.webp 800w,
+            images/wk6hero1200 1200w">
+            <figcaption class="herotext">Welcome to Wickham Park!</figcaption>
+        </figure>
+        <!-- <section class="heromain">
             <h2 class="herotext">Welcome to Wickham Park!</h2>
             <img class="heropic" src="images/tunnel-geb9b5dd92_640.jpg" alt="heropic">
-        </section>
+        </section> -->
         <div class="event">
             <h2>Event</h2>
         </div>
@@ -92,7 +101,7 @@
         <section class="footer">
         <div class="footerlogo">
             <picture>
-            <img src="images/WP.png" alt="tree-logo" width="100px">
+            <img src="images/WP.png" alt="tree-logo">
             </picture>
         </div>
         <div class="fname">
@@ -109,7 +118,6 @@
             <p>+1 (860)528-0857</p>
         </div>
         <div class="fmap">
-            <!-- <img src="images/68014_location_position_pin_red_icon.png" alt="map pin" width="16px"> -->
             <p>📍Location Map</p>
         </div>
         <div class="footertext">

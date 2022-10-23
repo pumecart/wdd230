@@ -76,20 +76,21 @@
         grid-column: 3/4;
     }
 
-    /* .light{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 32% 32% 32%;
-    } */
+    .light{
+        display: flex;
+        flex-direction: column;
+        flex-grow: auto;
+    }
 
     .sl3{
+        display: block;
         border: solid rgba(0, 0, 0, 0.3);
         padding: .25rem;
         margin: .25rem;
         text-align: center;
     }
 
-    .sl1{
+    /* .sl1{
         grid-row: 1/2;
         grid-column: 3/4;
     }
@@ -103,7 +104,7 @@
         display: grid;
         grid-row: 3/4;
         grid-column: 3/4;
-    }
+    } */
 
     .footertext{
         display: flex;

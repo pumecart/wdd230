@@ -118,12 +118,9 @@ nav a:hover{
 #hamburgerBtn.open span:nth-child(1) {display: block;}
 
 
-.banner{
+.meeting{
     display: block;
     font-family: 'Libre Baskerville', serif;
-    /* position: absolute;
-    bottom: 25px;
-    right: 25px; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -229,4 +226,11 @@ nav a:hover{
     font-family: 'Libre Baskerville', serif;
     list-style-type: none;
 }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
