@@ -24,9 +24,11 @@ h1, .date, footer{
 }
 
 .logo {
-	align-items: center;
+	/* align-items: center;
     justify-content: space-around;
-	margin-left: 1rem;
+	margin-left: 1rem; */
+    float: left;
+    margin: 0 2% 0 0;
 }
 
 .logo img {
@@ -118,7 +120,7 @@ nav a:hover{
 #hamburgerBtn.open span:nth-child(1) {display: block;}
 
 
-.meeting{
+.banner{
     display: block;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
@@ -135,6 +137,11 @@ nav a:hover{
 }
 
 .heropic{
+    width: 100%;
+    border: 1px red dashed;
+}
+
+.heropic img{
     width: 100%
 }
 
@@ -174,11 +181,13 @@ nav a:hover{
     text-align: center;
 }
 
-.footerlogo{
+.footerlogo img{
     grid-row: 1/2;
     margin: .5px;
     padding: .5px;
+    width: 50%;
 }
+
 
 .fname{
     grid-row: 2/3;

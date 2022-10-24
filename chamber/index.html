@@ -19,12 +19,12 @@
     <header class="clearfix">
         <section class="head">
         <!-- <div class="logo"> -->
-        <picture class="logo">
-            <source media="(max-width: 300px)" srcset="images/logo300.webp">
+        <figure class="logo">
+            <!-- <source media="(max-width: 300px)" srcset="images/logo300.webp">
             <source media="(max-width: 400px)" srcset="images/logo400.webp">
-            <source media="(max-width: 500px)" srcset="images/logo500.webp">
-        <img src="images/WP.png" alt="logo">
-        </picture>
+            <source media="(max-width: 500px)" srcset="images/logo500.webp"> -->
+            <img src="images/WP.png" alt="logo" srcset="images/logo300.webp 1x, images/logo400.webp 2x, images/logo500.webp 3x">
+        </figure>
         <!-- </div> -->
         <div class="headings">
         <h1>Wickham Park Area<br>
@@ -53,15 +53,17 @@
     </header>
     <main class="main-main">
         <figure class="heromain">
-            <img src="images/wdd230-org.jpg" alt="wk6heromain" sizes="50vw"
-            srcset="images/wk6hero700.webp 700w, images/wk6hero800.webp 800w,
-            images/wk6hero1200 1200w">
+            <img source class="heropic" src="images/wk6hero1200.webp" alt="heropic" sizes="50vw"
+            srcset="images/wk6hero200.webp 200w,
+                    images/wk6hero400.webp 400w,
+                    images/wk6hero800.webp 800w,
+                    images/fwk6hero1200.webp 1200w">
             <figcaption class="herotext">Welcome to Wickham Park!</figcaption>
         </figure>
         <!-- <section class="heromain">
             <h2 class="herotext">Welcome to Wickham Park!</h2>
             <img class="heropic" src="images/tunnel-geb9b5dd92_640.jpg" alt="heropic">
-        </section> -->
+        </section>  -->
         <div class="event">
             <h2>Event</h2>
         </div>
@@ -100,9 +102,9 @@
     <footer>
         <section class="footer">
         <div class="footerlogo">
-            <picture>
+            <figure>
             <img src="images/WP.png" alt="tree-logo">
-            </picture>
+            </figure>
         </div>
         <div class="fname">
             <p>Wickham Park Area Chamber of Commerce</p>
