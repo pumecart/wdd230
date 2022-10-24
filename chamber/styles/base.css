@@ -40,19 +40,12 @@ h1, .date, footer{
 	font-size: 1rem;
 } 
 
-
-
 .socialmedia {
     margin-right: 1.5rem;
     justify-content: center;
     /* justify-content: right; */
     align-items: center;
 } 
-
-.socialmedia a {
-    width: 5px;
-    height: auto;
-}
 
 .homenav{
     background-color: rgb(159, 233, 159);
@@ -74,11 +67,11 @@ h1{
     text-align: center;
     align-items: center;
 	margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 1px solid blue;
 	padding: 0.75rem;
 	background-color: #eee;
     letter-spacing: 1pt;
-	color: forestgreen;
+	color: navy;
 	font-weight: 700;
 	font-size: 0.8rem;
 }
@@ -158,6 +151,20 @@ nav a:hover{
     padding: .5rem;
     margin: .25rem;
     text-align: center;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.w, .ea, .th, .er{
+    padding: 1rem;
 }
 
 .heromain{
