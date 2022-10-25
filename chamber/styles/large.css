@@ -84,7 +84,7 @@
     .light{
         display: flex;
         flex-direction: column;
-        flex-grow: auto;
+        flex-grow: 1;
     }
 
     .sl3{
