@@ -125,6 +125,7 @@ nav a:hover{
     justify-content: center;
     background-color: lightblue;
     font-style: italic;
+    font-weight: bold;
     padding: .5rem;
 }
 
@@ -148,6 +149,7 @@ nav a:hover{
     top: 10px;
     left: 10px;
     font-size: 25px;
+    font-weight: bold;
     color: black;
     font-family: 'Libre Baskerville', serif;
 }
@@ -189,6 +191,17 @@ nav a:hover{
     padding: .5rem;
 }
 
+.join h2{
+    color: black;
+    background-color:  rgb(159, 233, 159);
+    border: solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
 .join p{
     padding: 1rem;
     text-align: center;
@@ -217,10 +230,73 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    background-color: darkblue;
+    color: white;
+}
+
+.weather section{
+    display: flex;
+    flex-direction: column;
+}
+
+.w{
+    display: flex;
+    flex-direction: row;
+}
+
+.w img{
+    height: 100px;
+}
+
+.w p{
+    font-size: 36px;
+    font-weight: bold;
+    align-items: baseline;
 }
 
 .w, .ea, .th, .er{
     padding: 1rem;
+}
+
+.sl1{
+    border: solid red;
+}
+
+.sl1 figcaption{
+    font-weight: bold;
+}
+
+.manny{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.sl1 img{
+    height: 80px;
+}
+
+.sl2{
+    padding: .25rem;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+
+.sl2 img{
+    height: 80px;
+    padding: .5rem;
+}
+
+.sl2 h2{
+    text-decoration: underline;
+}
+
+.sl2 h2, .cu{
+    color: green;
+    font-weight: bold;
 }
 
 .heromain{

@@ -75,6 +75,22 @@
         padding: 2px;
         margin: 0;
     }
+
+    .sl1{
+        font-size: 80%;
+    }
+
+    .sl1 img{
+        display: none;
+    }
+
+    .sl2{
+        font-size: 80%;
+    }
+
+    .sl2 img{
+        display: none;
+    }
     
     .sl3{
         display: none;
@@ -94,8 +110,17 @@
     .weather{
         grid-row: 5/6;
         grid-column: 2/3;
+        padding: .25rem;
     }
-    
+
+    .w, .ea, .th, .er{
+        padding: .25rem;
+    }
+
+    .weather img{
+        height: 40px;
+    }
+
     .footer{
         display: grid;
         grid-template-rows: 25% 25% 25% 25%;
