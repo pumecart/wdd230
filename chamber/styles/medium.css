@@ -15,6 +15,11 @@
         font-size: 16px;
     }
 
+    .icon{
+        width: 28px;
+        flex-direction: row;
+    }
+
     .heromain{
         margin-top: 50px;
     }

@@ -47,6 +47,10 @@ h1, .date, footer{
     align-items: center;
 } 
 
+.icon{
+    width: 24px;
+}
+
 .homenav{
     background-color: rgb(159, 233, 159);
     display: flex;
@@ -99,7 +103,7 @@ nav ul li{
 }
 
 nav a:hover{
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
 }
 
 .active{
@@ -131,7 +135,7 @@ nav a:hover{
 
 .heropic{
     width: 100%;
-    border: 1px red dashed;
+    /* border: 1px red dashed; */
 }
 
 .heropic img{
@@ -192,7 +196,7 @@ nav a:hover{
     grid-row: 1/2;
     margin: .5px;
     padding: .5px;
-    width: 50%;
+    width: 20%;
 }
 
 
