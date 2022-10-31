@@ -123,7 +123,7 @@ nav a:hover{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 0, 0.705);
+    background-color: lightblue;
     font-style: italic;
     padding: .5rem;
 }
@@ -145,9 +145,26 @@ nav a:hover{
 .herotext{
     position: absolute;
     margin: 0 auto;
-    top: 0;
+    top: 10px;
     left: 10px;
-    color: white;
+    font-size: 25px;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.joinbutton{
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    background-color:  rgb(159, 233, 159);
+    border: solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .event, .weather, .join, .nr, .spot, .sl1, .sl2{
@@ -155,6 +172,41 @@ nav a:hover{
     padding: .5rem;
     margin: .25rem;
     text-align: center;
+}
+
+.event{
+    padding: .25rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.event h2{
+    padding: .25rem;
+}
+
+.event h3{
+    color: rgb(198, 27, 198);
+    padding: .5rem;
+}
+
+.join p{
+    padding: 1rem;
+    text-align: center;
+    color: rgb(209, 14, 56);
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.nr h3{
+    padding: .75rem;
+    background-color: yellow;
+}
+
+.nr p{
+    padding: .75rem;
+    text-align: left;
 }
 
 .weather{
@@ -194,8 +246,6 @@ nav a:hover{
 
 .footerlogo img{
     grid-row: 1/2;
-    margin: .5px;
-    padding: .5px;
     width: 20%;
 }
 
@@ -220,7 +270,7 @@ nav a:hover{
 
 .fmap{
     grid-row: 6/7;
-    padding: .25rem;
+    padding: .5rem;
     border-bottom: rgba(0,0,0,0.2);
 }
 
@@ -230,6 +280,7 @@ nav a:hover{
     grid-row: 7/11;
     display: flex;
     flex-direction: column;
+    font-size: small;
 }
 
 .playfair{
