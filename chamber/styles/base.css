@@ -24,11 +24,8 @@ h1, .date, footer{
 }
 
 .logo {
-	/* align-items: center;
-    justify-content: space-around;
-	margin-left: 1rem; */
-    float: left;
-    margin: 0 2% 0 0;
+	margin: 0 2% 0 0;
+    padding: 1rem;
 }
 
 .logo img {
@@ -56,7 +53,6 @@ h1, .date, footer{
     display: flex;
     flex-flow: column;
     align-items: center;
-    /* justify-content: center; */
     justify-content: right;
     padding: .5rem;
 }
@@ -323,6 +319,7 @@ nav a:hover{
 .footerlogo img{
     grid-row: 1/2;
     width: 20%;
+    padding: .25rem;
 }
 
 
