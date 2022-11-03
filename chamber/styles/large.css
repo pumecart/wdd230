@@ -148,6 +148,10 @@
     }
 
     .footerlogo img{
-        width: 50%;
+        width: 7rem;
+    }
+
+    .footertext{
+        font-size: 1rem;
     }
 }

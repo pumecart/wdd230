@@ -110,10 +110,24 @@ nav a:hover{
 #hamburgerBtn span:nth-child(2) {display: none;}
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(1) {display: block;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
 
+nav.homenav #hamburgerBtn{
+    border: solid black;
+    font-size: 1.5rem;
+}
 
-.banner{
+button#hamburgerBtn.open{
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    padding: .25rem;
+    width: 2.5rem;
+}
+
+#meeting{
     display: block;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
@@ -132,11 +146,13 @@ nav a:hover{
 
 .heropic{
     width: 100%;
+    height: auto;
     /* border: 1px red dashed; */
 }
 
 .heropic img{
-    width: 100%
+    width: 100%;
+    height: auto;
 }
 
 .herotext{
@@ -146,7 +162,8 @@ nav a:hover{
     left: 10px;
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: white;
+    text-decoration-line: underline;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -180,6 +197,10 @@ nav a:hover{
 
 .event h2{
     padding: .25rem;
+}
+
+.h2event{
+    background-color: lightblue;
 }
 
 .event h3{
@@ -318,7 +339,8 @@ nav a:hover{
 
 .footerlogo img{
     grid-row: 1/2;
-    width: 20%;
+    width: 5rem;
+    height: auto;
     padding: .25rem;
 }
 
