@@ -34,9 +34,9 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
         <ul id="navigation">
             <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="discover.html">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
             <li><a href="target-audience.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li><a class="active" href="color-scheme.html">Join</a></li>
             <li><a href="typography.html">Contact</a></li>
         </ul>
         </nav>
@@ -51,34 +51,38 @@
         <div class="date"></div>
         <div class="banner"><span id="meeting"></span></div>
     </header>
-    <main class="discover-main">
-        <h2 class="dtitle">Discover What Makes Wickham Park So Wonderful!</h2>
-        <picture class="dp1">
-            <img class="di1" src="images/peterwickham.webp" alt="peterwickham">
-        </picture>
-        <div class="dh1">
-        <h3>Wickham Park Origins</h3>
-            <p>Wickham Park was originally founded by Peter Wickham and his family in 1640.  Peter was a wealthy adventurer who wanted to try his luck in the "New World".  After finding his way to what would be called Wickham Park, decided to 
-                make it his home after discovering that the land provided everything that they needed to thrive.  Peter Wickham opened up the first General Store, the first Post Office, and the first School.  He helped others in the community to set up businesses that were needed by donating to them.
-                These and other early businesses did so well that they are still being run today!  Before his passing, Peter was quoted with one final thought on the town: "While Wickham Park is beautiful, the true treasure is found in its people.  We support eachother here and have built eachother up to what it is now.  We are our greatest asset!"
-            </p>
-        </div>
-        <picture class="dp2">
-            <img class="di2" src="" alt="">
-        </picture>
-        <h3 class="dh2"></h3>
-        <picture class="dp3">
-            <img class="di3" src="" alt="">
-        </picture>
-        <h3 class="dh3"></h3>
-        <picture class="dp4">
-            <img class="di4" src="" alt="">
-        </picture>
-        <h3 class="dh4"></h3>
-        <picture class="dp5">
-            <img class="di5" src="" alt="">
-        </picture>
-        <h3 class="dh5"></h3>
+    <main>
+        <h1>Join the Chamber!</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Contact Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Business Position<input type="text" name="title"></label>
+                <label>Email*<input type="email" name="email" placeholder="someone.gmail.com" required></label>
+                <label>Cell*<input type="tel" name="tel" required></label>
+                <label>Business Name*<input type="text" name="business" required></label>
+            </fieldset>
+            <fieldset>
+                <label>Membership Level
+                    <select name="membership">
+                        <option value="">Please Select</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Tell Us About Your Business</legend>
+                <label><input type="textarea" name="explain"></label>
+            </fieldset>
+            <fieldset id="hidden"></fieldset>
+            <input type="submit" value="Join">
+        </form>
+
+
     </main>
     <footer>
         <section class="footer">
