@@ -51,38 +51,75 @@
         <div class="date"></div>
         <div class="banner"><span id="meeting"></span></div>
     </header>
-    <main>
-        <h1>Join the Chamber!</h1>
-        <form method="get" action="thanks.html">
-            <fieldset>
-                <legend>Your Contact Information</legend>
-                <label>First Name*<input type="text" name="fname" required></label>
-                <label>Last Name*<input type="text" name="lname" required></label>
-                <label>Business Position<input type="text" name="title"></label>
-                <label>Email*<input type="email" name="email" placeholder="someone.gmail.com" required></label>
-                <label>Cell*<input type="tel" name="tel" required></label>
-                <label>Business Name*<input type="text" name="business" required></label>
-            </fieldset>
-            <fieldset>
-                <label>Membership Level
-                    <select name="membership">
-                        <option value="">Please Select</option>
-                        <option value="np">NP Membership</option>
-                        <option value="bronze">Bronze Membership</option>
-                        <option value="silver">Silver Membership</option>
-                        <option value="gold">Gold Membership</option>
-                    </select>
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Tell Us About Your Business</legend>
-                <label><input type="textarea" name="explain"></label>
-            </fieldset>
-            <fieldset id="hidden"></fieldset>
-            <input type="submit" value="Join">
-        </form>
-
-
+    <main class="joinmain">
+        <h2 class="joinpage">Join the Chamber!</h2>
+        <div class="intro">
+            <h3>Grow Your Business with a <br> Chamber Membership</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>  
+        <section class="joinsection">
+            <div class="membership">
+                <h3>Membership Levels</h3>
+                <div class="gold">
+                    <h4>Gold - $1,000</h4>
+                    <ul>
+                        <li>Spotlight Advertisement on Chamber Website</li>
+                        <li>Free Trainings</li>
+                        <li>75% Event Discount PLUS 3 FREE Events Per Year</li>
+                        <li>Chamber Insurance</li>
+                    </ul>
+                </div>
+                <section>
+                <div class="silver">
+                    <h4>Silver - $500</h4>
+                    <ul>
+                        <li>Company Logo on Chamber Directory</li>
+                        <li>Discounted Trainings</li>
+                        <li>25% Event Discount PLUS 1 FREE Event Per Year</li>
+                        <li>Chamber Insurance</li>
+                    </ul>
+                </div>
+                <div class="bronze">
+                    <h4>Bronze - $250</h4>
+                    <ul>
+                        <li>10% Event Discount</li>
+                        <li>Chamber Insurance</li>
+                    </ul>
+                </div>
+                <div class="nonprofit">
+                    <h4>NP - $40</h4>
+                    <p>Non-profit <br> All regular membership benefits included</p>
+                </div>   
+            </div>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Business Position<input type="text" name="title" placeholder="ie. Executive Director"></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone.gmail.com" required></label>
+                    <label class="top">Cell*<input type="tel" name="tel" required></label>
+                    <label class="top">Business Name*<input type="text" name="business" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                        <label class="top"><select name="membership">
+                            <option value="">Please Select</option>
+                            <option value="np">NP Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Tell Us About Your Business</legend>
+                    <label class="top"><input type="textarea" name="explain"></label>
+                </fieldset>
+                <fieldset id="hidden"></fieldset>
+                <input type="submit" value="Join" class="submitBtn">
+            </form>
+        </section>
     </main>
     <footer>
         <section class="footer">

@@ -324,8 +324,132 @@ button#hamburgerBtn.open{
 .sl3{
     display: none;
 }
+/*-------------------Join Page------------------*/
+.joinmain{
+    margin: 0;
+}
 
-/* footer */
+.joinpage{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    padding: 1rem;
+    color: green;
+}
+
+.intro{
+    text-align: center;
+    padding: 1rem;
+}
+
+.intro h3{
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.intro p{
+    text-align: left;
+}
+
+.membership{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.membership h3{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+.membership h4{
+    font-size: 1.25rem;
+    padding: .5rem;
+}
+
+.membership h4{
+    text-decoration: underline;
+}
+
+.gold{
+    background-color: darkgreen;
+    color: white;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.bronze{
+    background-color: lightgreen;
+}
+
+.nonprofit{
+    background-color: rgb(193, 242, 193);
+}
+
+
+
+
+
+/*---------------------Join form---------------------*/
+form{
+    margin: .5rem;
+    width: 80%;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid rgb(0, 128, 0);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+form legend{
+    color: navy;
+    margin: 0 1rem;
+    padding: .5rem;
+}
+
+form label.top{
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    display: block;
+    font: 1rem;
+    padding: .75rem;
+    border: 1px solid rgb(159, 233, 159);
+    color: rgb(52, 50, 50);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.submitBtn{
+    background-color:  rgb(159, 233, 159);
+    /* border: solid rgba(0, 0, 0, 0.1); */
+    border-radius: 1rem;
+    font-weight: bold;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+/* ------------------footer------------------------- */
 .footer{
     /* display: grid; */
     /* grid-template-rows: 32% 8% 8% 8% 8% 8% 7% 7% 7% 7%; */
@@ -400,3 +524,19 @@ button#hamburgerBtn.open{
     clear: both;
   }
 
+  /*-----------thank you page------*/
+  .tymain{
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .tymain h1{
+    font-size: 2rem;
+  }
+
+  .tymain h2{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 4rem;
+    color: darkgreen;
+  }

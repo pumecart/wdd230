@@ -147,6 +147,19 @@
         margin: .25rem;
     }
 
+    /*------------join page------------*/
+    form{
+        width: 50%;
+        margin: 2rem;
+    }
+
+
+    .membership{
+        margin-left: 2rem;
+    }
+
+    /*--------------footer---------------*/
+
     .footerlogo img{
         width: 7rem;
     }

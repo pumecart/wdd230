@@ -121,6 +121,35 @@
         height: 40px;
     }
 
+/*-------------join page----------------*/
+    .joinsection{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: .5rem;
+        justify-content: space-around;
+        align-items: baseline;
+        width: 90%;
+    }
+
+    .membership{
+        align-content: center;
+        justify-content: center;
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .membership ul li{
+        list-style: none;
+    }
+
+    form{
+        width: 100%;
+        margin-right: 0;
+        align-content: center;
+        justify-content: center;
+    }
+
+/*-------------footer---------------*/
     .footer{
         display: grid;
         grid-template-rows: 2fr 1fr;
