@@ -372,6 +372,10 @@ button#hamburgerBtn.open{
     text-decoration: underline;
 }
 
+.membership ul li{
+    list-style: none;
+}
+
 .gold{
     background-color: darkgreen;
     color: white;
@@ -396,7 +400,7 @@ button#hamburgerBtn.open{
 /*---------------------Join form---------------------*/
 form{
     margin: .5rem;
-    width: 100%;
+    width: 90%;
 }
 
 form fieldset{
