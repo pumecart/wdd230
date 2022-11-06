@@ -26,8 +26,13 @@ header, footer {
     box-shadow: rgb(255, 255, 255) 7px 7px 8px;
 }
 
+header{
+    flex-direction: row-reverse;
+}
+
 img {
     box-shadow: rgb(255, 255, 255) 7px 7px 8px;
+    margin: 2rem;
 }
  
 
