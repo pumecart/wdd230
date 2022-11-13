@@ -1,0 +1,76 @@
+{
+    "businesses": [
+      {
+        "name": "Manny's Autobody",
+        "address": "25 Dirtroad Street, Wickham Park, CT 06107",
+        "number": "860-913-3210",
+        "weburl": "mannysautowickham.com",
+        "imagename": "images/car.webp",
+        "membership level": "Gold"
+       },
+       {
+        "name": "Wickham Credit Union",
+        "address": "100 Money Street, Wickham Park, CT 06107",
+        "number": "860-913-0020",
+        "weburl": "wickhamcu.org",
+        "imagename": "images/creditunion.webp",
+        "membership level": "Gold"
+       },
+       {
+        "name": "Suzy's Diner",
+        "address": "55 Main Street, Wickham Park, CT 06107",
+        "number": " 860-913-5555",
+        "weburl": "suzysdiner.com",
+        "imagename": "images/diner.webp",
+        "membership level": "Gold"
+       },
+       {
+        "name": "Frozen Frog Ice Creamery",
+        "address": "1206 Sweet Road, Wickham Park, CT 06107",
+        "number": "860-913-6350",
+        "weburl": "wickhamfrozenfrog.com",
+        "imagename": "🐸",
+        "membership level": "Silver"
+       },
+       {
+        "name": "The Wickham Grocery Store",
+        "address": "25 Dirtroad Street, Wickham Park, CT 06107",
+        "number": "860-913-3210",
+        "weburl": "mannysautowickham.com",
+        "imagename": "images/car.webp",
+        "membership level": "Silver"
+       },
+       {
+        "name": "Wickham Pet Store",
+        "address": "25 Dirtroad Street, Wickham Park, CT 06107",
+        "number": "860-913-3210",
+        "weburl": "mannysautowickham.com",
+        "imagename": "images/car.webp",
+        "membership level": "Bronze"
+       },
+       {
+        "name": "Miriam's Music Shop",
+        "address": "25 Dirtroad Street, Wickham Park, CT 06107",
+        "number": "860-913-3210",
+        "weburl": "mannysautowickham.com",
+        "imagename": "images/car.webp",
+        "membership level": "Bronze"
+       },
+       {
+        "name": "The Barber & Beauty Salon",
+        "address": "16 Style Street, Wickham Park, CT 06107",
+        "number": "860-913-8432",
+        "weburl": "staciessalon.com",
+        "imagename": "💈",
+        "membership level": "Bronze"
+       },
+       {
+        "name": "Happy House Clubhouse",
+        "address": "78 Mind Way, Wickham Park, CT 06107",
+        "number": "860-913-0250",
+        "weburl": "happyhouse.org",
+        "imagename": "😊🏠",
+        "membership level": "NP"
+       }
+    ]
+}
