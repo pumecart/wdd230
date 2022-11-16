@@ -6,7 +6,7 @@
         "number": "860-913-3210",
         "weburl": "mannysautowickham.com",
         "imagename": "images/car.webp",
-        "membership level": "Gold"
+        "membershipLevel": "Gold"
        },
        {
         "name": "Wickham Credit Union",
@@ -14,7 +14,7 @@
         "number": "860-913-0020",
         "weburl": "wickhamcu.org",
         "imagename": "images/creditunion.webp",
-        "membership level": "Gold"
+        "membershipLevel": "Gold"
        },
        {
         "name": "Suzy's Diner",
@@ -22,7 +22,7 @@
         "number": " 860-913-5555",
         "weburl": "suzysdiner.com",
         "imagename": "images/diner.webp",
-        "membership level": "Gold"
+        "membershipLevel": "Gold"
        },
        {
         "name": "Frozen Frog Ice Creamery",
@@ -30,7 +30,7 @@
         "number": "860-913-6350",
         "weburl": "wickhamfrozenfrog.com",
         "imagename": "🐸",
-        "membership level": "Silver"
+        "membershipLevel": "Silver"
        },
        {
         "name": "The Wickham Grocery Store",
@@ -38,7 +38,7 @@
         "number": "860-913-3210",
         "weburl": "mannysautowickham.com",
         "imagename": "images/car.webp",
-        "membership level": "Silver"
+        "membershipLevel": "Silver"
        },
        {
         "name": "Wickham Pet Store",
@@ -46,7 +46,7 @@
         "number": "860-913-3210",
         "weburl": "mannysautowickham.com",
         "imagename": "images/car.webp",
-        "membership level": "Bronze"
+        "membershipLevel": "Bronze"
        },
        {
         "name": "Miriam's Music Shop",
@@ -54,7 +54,7 @@
         "number": "860-913-3210",
         "weburl": "mannysautowickham.com",
         "imagename": "images/car.webp",
-        "membership level": "Bronze"
+        "membershipLevel": "Bronze"
        },
        {
         "name": "The Barber & Beauty Salon",
@@ -62,7 +62,7 @@
         "number": "860-913-8432",
         "weburl": "staciessalon.com",
         "imagename": "💈",
-        "membership level": "Bronze"
+        "membershipLevel": "Bronze"
        },
        {
         "name": "Happy House Clubhouse",
@@ -70,7 +70,7 @@
         "number": "860-913-0250",
         "weburl": "happyhouse.org",
         "imagename": "😊🏠",
-        "membership level": "NP"
+        "membershipLevel": "NP"
        }
     ]
 }

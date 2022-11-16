@@ -1,8 +1,8 @@
-const requestFile = 'scripts/data.json';
-const cards = document.querySelector('.cards');
+const requestFile = "scripts/data.json";
+const businesses = document.querySelector('.businesses');
 
 async function getBusinesses() {
-    const response = await fetch(requestURL);
+    const response = await fetch(requestFile);
     if(response.ok) {
         const data = await response.json();
         data.prophets.forEach(business => {displayBusinesses(business)} )
@@ -14,38 +14,54 @@ function displayBusinesses(business) {
 
         // Create elements to add to the document
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let portrait = document.createElement('img');
-        let birthdate = document.createElement('p');
-        let birthplace = document.createElement('div');
+        card.className = "busisect";
+        let businame = document.createElement('h2');
+        h2.className = "busih2";
+        let address = document.createElement('p');
+        p.className = "busip"; 
+        let phoneNumber = document.createElement('p');
+        p.className = "busip";
+        let weburl = document.createElement('p');
+        p.className = "busip";
+        let imageName = document.createElement('img');
+        imageName.className = "busiportrait";
+        let membershipLevel = document.createElement('p');
+        p.className = "busip";
+        // let birthplace = document.createElement('div');
+        
         
 
     
         // Change the textContent property of the h2 element to contain the prophet's full name
-        h2.textContent = `${prophet.name} ${prophet.lastname}`;
-        birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
-        birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
+        businame.textContent = `${business.name}`;
+        address.textContent = `Address: ${business.address}`;
+        phoneNumber.textContent = `Phone Number: ${business.number}`;
+        weburl.textContent = `Website: ${business.weburl}`
+        membershipLevel.textContent = `Membership Level: ${business.membershipLevel}`
 
     
         // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-        portrait.setAttribute('src', prophet.imageurl);
-        portrait.setAttribute(
+        imageName.setAttribute('src', business.imagename);
+        imageName.setAttribute(
             'alt', 
-            `Portait of ${prophet.name} ${prophet.lastname}`
+            `Business icon of ${business.name}`
         );
-        portrait.setAttribute('loading', 'lazy');
+        imageName.setAttribute('loading', 'lazy');
     
         // Add/append the section(card) with the h2 element
-        card.appendChild(h2);
-        card.appendChild(portrait);
-        card.appendChild(birthdate);
-        card.appendChild(birthplace);
+        card.appendChild(businame);
+        card.appendChild(address);
+        card.appendChild(phoneNumber);
+        card.appendChild(weburl);
+        card.appendChild(imageName);
+        card.appendChild(membershipLevel);
+        // card.appendChild(birthplace);
     
         // Add/append the existing HTML div with the cards class with the section(card)
         // document.querySelector('div.cards').appendChild(card);
-        cards.appendChild(card);
+        businesses.appendChild(card);
     // });
 }
 
-getProphets();
+getBusinesses();
 // displayProphets(data);
