@@ -11,20 +11,20 @@ async function getBusinesses() {
 
 function displayBusinesses(business) {
 
-        let card = document.createElement('section');
+        let card = document.createElement('article');
         card.className = "busisect";
         let businame = document.createElement('h2');
-        h2.className = "busih2";
+        businame.className = "busih2";
         let address = document.createElement('p');
-        p.className = "busip"; 
+        address.className = "busip"; 
         let phoneNumber = document.createElement('p');
-        p.className = "busip";
+        phoneNumber.className = "busip";
         let weburl = document.createElement('p');
-        p.className = "busip";
+        weburl.className = "busip";
         let imageName = document.createElement('img');
         imageName.className = "busiportrait";
         let membershipLevel = document.createElement('p');
-        p.className = "busip";
+        membershipLevel.className = "busip";
        
         
     
