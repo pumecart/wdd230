@@ -1,8 +1,55 @@
-main {
+*{
     font: 16px;
+    font-family: 'Lilita One', cursive;
+}
+
+body{
+    display: block;
+    width: 650px;
+    border: solid black 5px;
+    border-radius: 20px;
+    align-content: center;
+    justify-self: center;
+}
+
+main, footer {
     margin: 0;
     text-align: center;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    padding: .5rem;
+    border: solid yellow 10px;
+}
+
+p, figcaption{
+    font-size: 1.5rem;
+}
+
+figure{
+    border: solid orange 5px;
+}
+
+#current-temp, #currently{
+    color: fuchsia;
+}
+
+p{
+    background-color: navy;
+    color: white;
+    padding: .5rem;
+}
+
+figure{
+    background-color: rgb(111, 111, 218);
+}
+
+footer{
+    background-color: rgb(204, 227, 234);
 }
