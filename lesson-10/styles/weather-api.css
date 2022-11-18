@@ -1,0 +1,18 @@
+main {
+    font: 16px;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    font: rgb(14, 14, 174);
+}
+
+#current-temp{
+    font: rgb(201, 22, 52);
+}
