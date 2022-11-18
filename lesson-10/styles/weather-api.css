@@ -8,7 +8,11 @@ body{
     border-radius: 20px;
     align-content: center;
     justify-self: center;
-    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    height: auto;
+    text-align: center;
 }
 
 main, footer {
