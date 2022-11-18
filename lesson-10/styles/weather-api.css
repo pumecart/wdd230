@@ -4,12 +4,11 @@
 }
 
 body{
-    display: block;
-    width: 650px;
     border: solid black 5px;
     border-radius: 20px;
     align-content: center;
     justify-self: center;
+    margin: 2rem;
 }
 
 main, footer {
