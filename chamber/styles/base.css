@@ -514,6 +514,15 @@ form label.top input:required:valid{
     font-size: small;
 }
 
+.weathersource{
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .25rem;
+    font-size: .75rem;
+}
+
 .playfair{
     font-family: 'Playfair Display SC', serif;
     list-style-type: none;

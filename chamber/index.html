@@ -74,23 +74,24 @@
         </div>
         <div class="weather">
             <h2 class="ther">Weather</h2>
-            <div class="w">
-                <img src="images/weather.webp" alt="weather">
-                <span id="degrees"></span>
-                <p>33&#176F</p>
-            </div>
+            <figure class="w">
+                <!-- <img src="images/weather.webp" alt="weather"> -->
+                <img src="" alt="" id="weather-icon" />
+                <p><span id="current-temp"></span>&#176F</p>
+                <!-- <p>33&#176F</p> -->
+                <figcaption></figcaption>
+            </figure>
             <section>
                 <div class="ea">
-                    <span id="textdegree"></span>
-                    <p>Partly Cloudy</p>
+                    <span id="currently"></span>
+                    <!-- <p>Partly Cloudy</p> -->
                 </div>
                 <div class="th">
-                    <span id="windspeed"></span>
-                    <p>Wind Speed : 2.5 km/hr</p>
+                    <p>Windspeed: <span id="windspeed"></span></p>
                 </div>
                 <div class="er">
-                    <span id="windchill"></span>
-                    <p>Wind Chill : N/A</p>
+                    <p>Windchill: <span id="windchill"></span></p>
+                    <!-- <p>Wind Chill : N/A</p> -->
                 </div>
             </section>
         </div>
@@ -171,9 +172,13 @@
         Wickham Park Chamber | <b>Pumehana Cartagena</b> | WDD 230 Project |
         <span class="lastupdated" id="lastupdated"></span>
         </div>
+        <div class="weathersource">
+            <li>Weather source: <a href="lesson2\design-principles.html">openweathermap.org</a></li>
+        </div>
         </section>
+        
     </footer>
     <script src="scripts/chamber.js"></script>
-    
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
