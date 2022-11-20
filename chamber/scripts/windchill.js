@@ -2,9 +2,10 @@
 const currentTemp = document.querySelector('#current-temp');
 const description = document.querySelector('#currently');
 const weatherIcon = document.querySelector('#weather-icon');
-const caption = document.querySelector('figcaption');
+const caption = document.querySelector('#weatherfig');
 const windSpeed = document.querySelector('#windspeed');
 const windChill = document.querySelector('#windchill');
+
 
 const apiURL = 
     'https://api.openweathermap.org/data/2.5/weather?q=East+Hartford&units=imperial&appid=81f8043dc05be8824a14c93c95981048';
@@ -40,7 +41,7 @@ async function apiFetch() {
     weatherIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     weatherIcon.alt = iconCap;
     let windsp = `${data.wind.speed} MPH`;
-    windSpeed.textContent = windsp;
+    windSpeed.innerHTML = windsp;
     // var temp= 57;
     // var wSpeed= 15;
     
