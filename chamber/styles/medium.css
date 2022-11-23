@@ -121,6 +121,21 @@
         height: 40px;
     }
 
+/*-------------directory page------------*/
+    .grid .businesses{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .list .busisect{
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .list .busiportrait{
+        display: none;
+    }
+
 /*-------------join page----------------*/
     .joinsection{
         display: flex;

@@ -147,6 +147,13 @@
         margin: .25rem;
     }
 
+    /*-------------directory page------------*/
+   
+    .grid .businesses{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     /*------------join page------------*/
     form{
         width: 50%;

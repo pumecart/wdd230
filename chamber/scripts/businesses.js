@@ -11,7 +11,7 @@ async function getBusinesses() {
 
 function displayBusinesses(business) {
 
-        let card = document.createElement('article');
+        let card = document.createElement('section');
         card.className = "busisect";
         let businame = document.createElement('h2');
         businame.className = "busih2";
@@ -20,18 +20,18 @@ function displayBusinesses(business) {
         let phoneNumber = document.createElement('p');
         phoneNumber.className = "busip";
         let weburl = document.createElement('p');
-        weburl.className = "busip";
+        weburl.className = "busiwebp";
         let imageName = document.createElement('img');
         imageName.className = "busiportrait";
         let membershipLevel = document.createElement('p');
-        membershipLevel.className = "busip";
+        membershipLevel.className = "busimemp";
        
         
     
         businame.textContent = `${business.name}`;
-        address.textContent = `Address: ${business.address}`;
-        phoneNumber.textContent = `Phone Number: ${business.number}`;
-        weburl.textContent = `Website: ${business.weburl}`
+        address.textContent = `${business.address}`;
+        phoneNumber.textContent = `${business.number}`;
+        weburl.textContent = `${business.weburl}`
         membershipLevel.textContent = `Membership Level: ${business.membershipLevel}`
 
     
@@ -54,4 +54,23 @@ function displayBusinesses(business) {
 }
 
 getBusinesses();
+
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+	
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); 
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
 

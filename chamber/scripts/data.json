@@ -29,7 +29,7 @@
         "address": "1206 Sweet Road, Wickham Park, CT 06107",
         "number": "860-913-6350",
         "weburl": "wickhamfrozenfrog.com",
-        "imagename": "🐸",
+        "imagename": "images/frog.webp",
         "membershipLevel": "Silver"
        },
        {
@@ -37,7 +37,7 @@
         "address": "25 Dirtroad Street, Wickham Park, CT 06107",
         "number": "860-913-3210",
         "weburl": "mannysautowickham.com",
-        "imagename": "images/car.webp",
+        "imagename": "images/grocery.webp",
         "membershipLevel": "Silver"
        },
        {
@@ -45,7 +45,7 @@
         "address": "25 Dirtroad Street, Wickham Park, CT 06107",
         "number": "860-913-3210",
         "weburl": "mannysautowickham.com",
-        "imagename": "images/car.webp",
+        "imagename": "images/pet.webp",
         "membershipLevel": "Bronze"
        },
        {
@@ -53,7 +53,7 @@
         "address": "25 Dirtroad Street, Wickham Park, CT 06107",
         "number": "860-913-3210",
         "weburl": "mannysautowickham.com",
-        "imagename": "images/car.webp",
+        "imagename": "images/music.webp",
         "membershipLevel": "Bronze"
        },
        {
@@ -61,7 +61,7 @@
         "address": "16 Style Street, Wickham Park, CT 06107",
         "number": "860-913-8432",
         "weburl": "staciessalon.com",
-        "imagename": "💈",
+        "imagename": "images/salon.webp",
         "membershipLevel": "Bronze"
        },
        {
@@ -69,7 +69,7 @@
         "address": "78 Mind Way, Wickham Park, CT 06107",
         "number": "860-913-0250",
         "weburl": "happyhouse.org",
-        "imagename": "😊🏠",
+        "imagename": "images/club.webp",
         "membershipLevel": "NP"
        }
     ]
