@@ -404,7 +404,7 @@ form{
 
 form fieldset{
     margin: 2rem 0;
-    border: 1px solid rgb(0, 128, 0);
+    border: solid rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     padding: 1rem;
 }
@@ -431,10 +431,10 @@ form label.top input, form label.top select{
     font: 1rem;
     padding: .75rem;
     border: 1px solid rgb(159, 233, 159);
-    color: rgb(52, 50, 50);
+    color: black;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(159, 233, 159);
 }
 
 form input.submitBtn{
@@ -458,7 +458,123 @@ form label.top input:required:valid{
 
 /*------------------directory---------*/
 
+/* .busisect{
+    display: flex;
+    flex-direction: column;
+    border: solid rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
 
+.busiportrait{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .25rem;
+}
+
+.busih2{
+    padding: 1rem;
+}
+
+.busiwebp{
+    color: rgb(0, 0, 255);
+}
+
+.busimemp{
+    font-style: italic;
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.directorymain {
+	margin: .25rem;
+	border: solid rgba(0, 0, 0, 0.3);
+	padding: 0.5rem;
+	background-color: rgb(238, 238, 238);
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color:  rgb(159, 233, 159);
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+    font-weight: bold;
+}
+
+article,
+.busisect {
+	margin: 0.75rem;
+}
+
+.busisect {
+	border: solid rgba(0, 0, 0, 0.3);
+	padding: 0.5rem;
+	background-color: white;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list .busisect {
+	display: flex;
+	align-items: center;
+}
+
+.grid .busisect {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid .busisect > * {
+	margin: 0.1rem;
+}
+
+.list .busisect {
+	flex-direction: column;
+	justify-content: left;
+}
+
+.list .busisect > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list .busisect .busiportrait {
+	display: none; 
+}
+
+.busisect h2 {
+	font-size: 1.5rem;
+}
+
+.busisect a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+.busiportrait {
+	height: 75px;
+	max-width: 100%;
+}
 
 
 /* ------------------footer------------------------- */
