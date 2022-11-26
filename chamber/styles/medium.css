@@ -231,5 +231,9 @@
         justify-content: center;
         align-items: center;
         padding: .25rem;
+    } 
+    
+    .weathersource{
+        grid-column: 2/3;
     }
 }

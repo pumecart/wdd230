@@ -246,7 +246,6 @@ button#hamburgerBtn.open{
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
     background-color: darkblue;
     color: white;
 }
@@ -324,6 +323,28 @@ button#hamburgerBtn.open{
 .sl3{
     display: none;
 }
+
+/*--------------Discover-------------------*/
+.dtitle{
+    text-align: center;
+    padding: 1rem;
+    color: green;
+    font-size: 2rem;
+}
+
+.dh1{
+    border: solid rgba(0, 0, 0, 0.3);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.discover-main h3{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+
 /*-------------------Join Page------------------*/
 .joinmain{
     margin: 0;

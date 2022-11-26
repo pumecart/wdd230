@@ -41,20 +41,16 @@ async function apiFetch() {
     weatherIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     weatherIcon.alt = iconCap;
     let windsp = `${data.wind.speed} MPH`;
-    windSpeed.innerHTML = windsp;
-    // var temp= 57;
-    // var wSpeed= 15;
+    windSpeed.textContent = windsp;
+  }
     
-    // let calc= Math.round((35.74 + (0.6215 * tempe))-(35.75 * Math.pow(windsp,0.16)) + (0.4275*tempe*Math.pow(windsp,0.16)));
-    // let windchill = "";
-    // if (tempe <= 50 && windsp > 3) {
-    //     windchill = (t, s);
-    //       calc = `${calc}&#176;F`;
-    //     } else {
-    //       calc = "N/A";
-    //     }
+    let calc= Math.round((35.74 + (0.6215 * tempe))-(35.75 * Math.pow(windsp,0.16)) + (0.4275*tempe*Math.pow(windsp,0.16)));
+    let windchill = "";
+    if (tempe <= 50 && windsp > 3) {
+        windchill = (t, s);
+          calc = `${calc}&#176;F`;
+        } else {
+          calc = "N/A";
+        }
 
-    // windChill.textContent = calc;
-
-    }
-  
+    windChill.textContent = calc;
