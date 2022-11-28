@@ -8,7 +8,8 @@ const windChill = document.querySelector('#windchill');
 
 
 const apiURL = 
-    'https://api.openweathermap.org/data/2.5/weather?q=Hartford&units=imperial&appid=81f8043dc05be8824a14c93c95981048';
+    'https://api.openweathermap.org/data/2.5/weather?q=East+Hartford&units=imperial&appid=243e94d8a8d615bddfd6d6bd53928f3e';
+    
 
 async function apiFetch() {
     try {
