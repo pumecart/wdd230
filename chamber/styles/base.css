@@ -592,9 +592,8 @@ article,
 /*--------------Contact--------------------*/
 
 .maincontact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .maincontact img{
@@ -603,10 +602,6 @@ article,
     margin-right: auto;
     align-items: center;
     justify-content: center;
-}
-
-.contact{
-    grid-column: 1/2;
 }
 
 .contacth2{
@@ -623,8 +618,6 @@ article,
 }
 /* ------------------footer------------------------- */
 .footer{
-    /* display: grid; */
-    /* grid-template-rows: 32% 8% 8% 8% 8% 8% 7% 7% 7% 7%; */
     background-color: rgb(159, 233, 159);
     justify-content: center;
     align-items: center;
