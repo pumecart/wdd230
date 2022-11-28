@@ -170,6 +170,11 @@
         margin-left: 2rem;
     }
 
+    .intro p{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
     /*--------------footer---------------*/
 
     .footerlogo img{
