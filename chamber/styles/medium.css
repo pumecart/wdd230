@@ -197,7 +197,7 @@
 }
 
 /*-------------footer---------------*/
-    .footer{
+    /* .footer{
         display: grid;
         grid-template-rows: 2fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
@@ -267,5 +267,41 @@
     
     .weathersource{
         grid-column: 2/3;
+    } */
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1rem;
     }
+
+    .footerlogo{
+        grid-column: 1/2;
+    }
+
+    .fna{
+        grid-column: 2/3;
+    }
+
+    .felph{
+        grid-column: 3/4;
+    }
+
+    .footertext{
+        grid-column: 1/4;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .chambertext{
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .weathersource{
+        grid-row: 2/3;
+    }
+
 }
