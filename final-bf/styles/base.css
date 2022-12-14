@@ -63,7 +63,13 @@ h1{
 }
 
 .homenav ul li{
-    list-style: none;
+    list-style: none;    
+}
+
+.homenav ul li a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: black;
 }
 
 nav ul {
@@ -73,6 +79,33 @@ nav ul {
 nav ul.open{
     display: block;
 }
+
+h2{
+    font-family: 'Lobster Two', cursive;
+}
+
+p{
+    font-family: 'Roboto', sans-serif; 
+}
+
+/*-------footer-------*/
+footer{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.contactinfo{
+    margin: 1rem;
+}
+
+.update{
+    color: lightpink;
+}
+
 
 
 

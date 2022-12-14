@@ -1,10 +1,11 @@
-@media only screen and (min-width: 37.5em) {    
+@media only screen and (min-width: 37.5em) {
+
     header{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row: 1fr;
         margin: 1rem;
-        width: 100%;
+        width: 95%;
         align-items: center;
         justify-content: center;
     }
@@ -12,11 +13,41 @@
     .namemedia{
         grid-column: 1/2;
         grid-row: 1/2;
+        justify-content: left;
+        margin-left: 2rem;
     }
 
     .homenav{
         grid-column: 2/3;
         grid-row: 1/2;
     }
+
+    nav ul {
+        display: flex;
+        width: 100%;
+    }
+
+	nav ul li { 
+        flex: 1 1 auto;
+        clear: both;
+        border-right: solid black;
+        margin: 2rem;
+    } 
+
+    nav ul li:last-child{
+        border-right: none;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+    }
+
+    #hamburgerBtn {
+        display: none;
+    }
+
+
+    /*-----footer------"/
+    
 
 }
