@@ -30,8 +30,17 @@ button#hamburgerBtn.open{
     font-size: 2rem;
     font-weight: bolder;
     color: black;
-    padding: .25rem;
+    padding: .5rem;
     width: 2.5rem;
+}
+
+ul#navigation.open li{
+    padding: 1rem;
+}
+
+nav a:hover{
+    background-color: lightpink;
+    padding: .75rem;
 }
 
 .namemedia{
@@ -86,6 +95,37 @@ h2{
 
 p{
     font-family: 'Roboto', sans-serif; 
+}
+
+/*----hero-----*/
+.heropic{
+    display: block;
+    border: 3px solid black;
+    padding: 1rem;
+    margin: auto;
+}
+
+.heromain{
+    position: relative;
+}
+
+.herobutton{
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: .5rem;
+}
+
+.herobutton a{
+    color: black;
+    text-decoration: none;
 }
 
 /*-------footer-------*/

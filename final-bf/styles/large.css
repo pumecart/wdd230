@@ -4,4 +4,11 @@
         font-size: 24px;
     }
 
+    /*--hero--*/
+    .herobutton{
+        left: 150px;
+        bottom: 50px;
+        font-size: 3rem;
+    }
+
 }

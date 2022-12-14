@@ -14,12 +14,14 @@
         grid-column: 1/2;
         grid-row: 1/2;
         justify-content: left;
-        margin-left: 2rem;
+        margin-left: 4rem;
     }
 
     .homenav{
         grid-column: 2/3;
         grid-row: 1/2;
+        justify-content: right;
+        
     }
 
     nav ul {
@@ -47,7 +49,12 @@
     }
 
 
-    /*-----footer------"/
-    
+    /*-----hero------*/
+    .herobutton{
+        left: 70px;
+        bottom: 50px;
+        font-size: 2rem;
+    }
 
+    
 }
