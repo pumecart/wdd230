@@ -116,16 +116,37 @@ p{
     left: 30px;
     font-size: 25px;
     font-weight: bold;
-    color: black;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 0, 255);
     border-radius: 10px;
     background-color: white;
     padding: .5rem;
 }
 
 .herobutton a{
-    color: black;
+    color: rgb(255, 0, 255);
     text-decoration: none;
+}
+
+/*----currenttempcard----*/
+.weather{
+    border: 2px solid blue;
+    padding: .5rem;
+    background-color: skyblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    text-align: center;
+}
+
+.pictemp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
 }
 
 /*-------footer-------*/
@@ -139,6 +160,10 @@ footer{
 }
 
 .contactinfo{
+    margin-top: 1rem;
+}
+
+.web{
     margin: 1rem;
 }
 
