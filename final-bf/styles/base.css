@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    grid-row: 1fr;
+    margin: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+nav.homenav #hamburgerBtn{
+    border: solid black;
+    font-size: 1.5rem;
+}
+
+button#hamburgerBtn.open{
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    padding: .25rem;
+    width: 2.5rem;
+}
+
+.namemedia{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-family: 'Rouge Script', cursive; 
+    margin-right: 1rem;
+}
+
+.icon{
+    width: 24px;
+}
+
+.homenav{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homenav ul li{
+    list-style: none;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+
+
+
+

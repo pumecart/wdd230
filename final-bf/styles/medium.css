@@ -1,0 +1,22 @@
+@media only screen and (min-width: 37.5em) {    
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr;
+        margin: 1rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .namemedia{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .homenav{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+}
