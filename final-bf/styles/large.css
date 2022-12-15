@@ -6,9 +6,53 @@
 
     /*--hero--*/
     .herobutton{
-        left: 150px;
-        bottom: 50px;
-        font-size: 3rem;
+        left: 50px;
+        bottom: 25px;
+        font-size: 2rem;
+    }
+
+    .heropic{
+        height: 400px;
+    }
+
+    .homemain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .75fr .5fr .55fr .5fr;
+        gap: none;
+    }
+    
+    .weather{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .threeforecast{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .heromain{
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .infocard{
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+
+    .coasttext{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .coastimg{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        /* margin-right: auto;
+        margin-left: auto; */
     }
 
 }
+    

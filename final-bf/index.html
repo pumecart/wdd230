@@ -40,16 +40,20 @@
         </ul>
         </nav>
     </header>
-    <main>
+    <main class="homemain">
         <figure class="heromain">
-            <img class="heropic" src="images/heropic.webp" alt="heropic" sizes="85vw"
+            <img  src="images/greysquare.jpg" class="heropic" data-src="images/heropic.webp" alt="heropic" sizes="85vw"
             srcset="images/hero400.webp 400w,
                     images/hero500.webp 500w,
                     images/heropic.webp 600w">
             <figcaption class="herobutton"><a href="fresh.html">Click To Create Your Drink</a></figcaption>
         </figure>
         <div class="infocard">
-
+            <h2>Information</h2>
+            <p>You have submitted <br>
+            <span id="drinknumber"></span> <br>
+            specialty drinks! <br>
+            We thank you!</p>
         </div>
         <div class="weather">
             <h2>Current Temperature</h2>
@@ -59,7 +63,34 @@
                 <p>Humidity: <span id="humidity"></span></p>
             </div>
         </div>
-
+        <div class="threeforecast">
+            <h2>3-Day Forecast</h2>
+            <div>
+                <h3>Day 1</h3>
+                <p class="pictemp"><img src="www.openweathermap.org" id="weather-icon"><span id="day1"></span>&#176;F</p>
+            </div>
+            <div>
+                <h3>Day 2</h3>
+                <p class="pictemp"><img src="www.openweathermap.org" id="weather-icon"><span id="day2"></span>&#176;F</p>   
+            </div>
+            <div>
+                <h3>Day 3</h3>
+                <p class="pictemp"><img src="www.openweathermap.org" id="weather-icon"><span id="day3"></span>&#176;F</p>
+            </div>
+        </div>
+        <!-- <section class="coast"> -->
+            <picture class="coastimg">
+                <img src="images/greysquare.jpg" class="coast" data-src="images/coastalpic.webp" alt="coastalpic">
+            </picture>
+            <div class="coasttext">
+            <h3>🌊BIG SUR🌊</h3>
+            <p>Known for it's 90-mile long coastline, Big Sur, or Big South, is a can't miss destination with breath-taking scenery!  It's definitely one of our favorite spots, however, we
+                don't always park at the same spot.  Don't worry though, just give us a call and we'll
+                let you know exactly where we're at!  It's true, Big Sur is amazing, but the memorries you make there will
+                be even better with one of our delicious fruit drinks and/or fruit bags!
+            </p>
+            </div>
+        <!-- </section> -->
     </main>
     <footer>
         <div class="socialfooter">
@@ -87,5 +118,6 @@
         </div>  
     </footer>
     <script src="scripts/bf.js"></script>
+    <script src="scripts/lazy.js"></script>
 </body>
 </html>

@@ -49,6 +49,14 @@ async function apiFetch() {
     humidity.innerHTML = `${data.main.humidity}`;
     weatherIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
   }
+
+  //3-day forecast
+  const dayOneTemp = document.querySelector('#day1');
+  const dayTwoTemp = document.querySelector('#day2');
+  const dayThreeTemp= document.querySelector('#day3'); 
+
+  const apitwoURL = 
+    'https://pro.openweathermap.org/data/2.5/onecall?lat=33.1581&lon=-117.3506&exclude=current,hourly&appid=81f8043dc05be8824a14c93c95981048';
   
 
 
