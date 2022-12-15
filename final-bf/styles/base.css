@@ -81,6 +81,11 @@ h1{
     color: black;
 }
 
+.active{
+    background-color: lightpink;
+    padding: .75rem;
+}
+
 nav ul {
     display: none;
 }
@@ -213,6 +218,44 @@ p{
 .coasttext p{
     padding: .5rem;
 }
+
+/*---aboutus----*/
+.aboutus{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutwrite h2{
+    text-align: center;
+    padding: 1rem;
+    margin: .5rem;
+    text-decoration: underline;
+}
+
+.aboutinfo{
+    padding: 1rem;
+}
+
+.infopic{
+    border: 2px solid black;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.contact{
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.map{
+    border: 2px solid black;
+    margin-left: 2rem;
+}
+
+
+
 
 
 /*-------footer-------*/
